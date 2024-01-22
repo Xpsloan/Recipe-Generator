@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> 
+    Task Master
+</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center;"> {{ RecipeName }} </h1>
+    <h2> </h2>
+    <h4 style="text-align: center;"> {{ Ingredients }} </h4>
+    <h2> </h2>
+    <h4 style="text-align: center;"> {{ Instructions }}</h4>
+    <h2> </h2>
+
+    <div class="centered-link">
+        <a href="/back/">     
+            Back 
+        </a>
+    </div>
+    <h2> </h2>
+    <h2> </h2>
+
+
+</div>
+{% endblock %}

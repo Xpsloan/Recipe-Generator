@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: center;
+  }
+
+.centered-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered-link a {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: goldenrod; 
+    color: black; 
+    text-decoration: none;
+}
